@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DFAPIFramework'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'This SDK provides a set of methods for iOS applications to authenticate user, capture, save and retrieve data.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rahulpanchal173' => 'rahul.panchal@ranosys.com' }
-  s.source           = { :http => 'https://github.com/anandramdeo-df/df-documents/releases/download/0.1.0/DFAPIFramework.zip' }
+  s.source           = { :http => 'https://github.com/anandramdeo-df/df-documents/releases/download/1.0/DFAPIFramework.zip' }
   # s.social_media_url = 'https://twitter.com'
 
   s.ios.deployment_target = '10.0'
