@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
   s.description      = "Sole purpose of this SDK is to authenticate user, get captured asset data, save assets to the server and retrieve data from server.
 "
 
-  s.homepage         = 'https://github.com/anandramdeo-df/df-api-framework'
+  s.homepage         = 'https://github.com/anandramdeo-df/df-ios-api-sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rahulpanchal173' => 'rahul.panchal@ranosys.com' }
-  s.source           = { :http => 'https://github.com/anandramdeo-df/df-documents/releases/download/1.0/DFAPIFramework.zip' }
+  s.source           = { :http => 'https://github.com/anandramdeo-df/df-ios-api-sdk/releases/download/1.0/DFAPIFramework.zip' }
   # s.social_media_url = 'https://twitter.com'
 
   s.ios.deployment_target = '10.0'
