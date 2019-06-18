@@ -26,6 +26,12 @@ pod install
 ```
 <i> If any error occure in the process of pod install then try with pod update command. Now close the xcode project and open prj.xcworkspace instead.</i>
 
+### URL Configuration
+Add an url of the server to communicate with the framework in your `Info.plist` file.
+Format:
+<key>server url</key>
+<string>http://abc.com/api/</string>
+
 ### Authentication
 - Add your org's `APIAccessToken` token in your `Info.plist` file.
 Format: 
