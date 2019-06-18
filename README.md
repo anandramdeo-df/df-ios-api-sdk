@@ -28,9 +28,11 @@ pod install
 
 ### URL Configuration
 Add an url of the server to communicate with the framework in your `Info.plist` file.
-Format:
+Example:
+```xml
 <key>server url</key>
 <string>http://abc.com/api/</string>
+```
 
 ### Authentication
 - Add your org's `APIAccessToken` token in your `Info.plist` file.
