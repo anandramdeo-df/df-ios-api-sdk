@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/anandramdeo-df/df-ios-api-sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rahulpanchal173' => 'rahul.panchal@ranosys.com' }
+  s.author           = { 'rahulpanchal173' => 'piyush.naredi@ranosys.com' }
   s.source           = { :http => 'https://github.com/anandramdeo-df/df-ios-api-sdk/releases/download/1.0.4/DFAPIFramework.zip' }
   # s.social_media_url = 'https://twitter.com'
 
