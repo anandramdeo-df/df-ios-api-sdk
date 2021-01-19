@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DFAPIFramework'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'This SDK provides a set of methods for iOS applications to authenticate user, capture, save and retrieve data.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'piyushnaredi' => 'piyush.naredi@ranosys.com' }
-  s.source           = { :http => 'https://github.com/anandramdeo-df/df-ios-api-sdk/releases/download/1.0.7/DFAPIFramework.zip' }
+  s.source           = { :http => 'https://github.com/anandramdeo-df/df-ios-api-sdk/releases/download/1.0.8/DFAPIFramework.zip' }
   # s.social_media_url = 'https://twitter.com'
 
   s.ios.deployment_target = '10.0'
@@ -43,5 +43,9 @@ Pod::Spec.new do |s|
   # s.dependency 'SwiftyJWT'
   # s.dependency 'CryptoSwift', '~> 0.9.0'
   # s.dependency 'BCryptSwift'
+    s.pod_target_xcconfig = {
+   'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+ }
+ s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
